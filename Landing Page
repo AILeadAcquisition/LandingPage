@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A.L.I.V.E System for Realtors</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #0ea5e9;
+      --secondary: #1e40af;
+      --dark: #0f172a;
+      --danger: #dc2626;
+      --light-bg: #f8fafc;
+      --highlight: #fde047;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--light-bg);
+      color: #1e293b;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(45deg, var(--dark), var(--primary));
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 2.4em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--primary);
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      background: var(--highlight);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .section-dark {
+      background-color: #1e293b;
+      color: white;
+    }
+
+    .section-dark h2 {
+      color: var(--highlight);
+    }
+
+    .benefits ul,
+    .painpoints ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .benefits li::before {
+      content: '✅ ';
+    }
+
+    .painpoints li::before {
+      content: '❌ ';
+      color: var(--danger);
+    }
+
+    .cta {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .cta button {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 15px 40px;
+      font-size: 1.2em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .cta button:hover {
+      background: var(--secondary);
+    }
+
+    .value-table,
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+    }
+
+    .value-table th,
+    .value-table td,
+    .comparison-table th,
+    .comparison-table td {
+      border: 1px solid #cbd5e1;
+      padding: 12px;
+      text-align: center;
+    }
+
+    .comparison-table th {
+      background-color: #e0f2fe;
+    }
+
+    .guarantee {
+      background: #fffbeb;
+      padding: 30px;
+      border-left: 5px solid var(--highlight);
+      border-radius: 8px;
+      margin: 40px 0;
+    }
+
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .note {
+      color: #64748b;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Double Your Conversions with Half the Hustle—<span class="highlight">On Autopilot</span></h1>
+  <p>Attention, Realtors: Ready to close more deals without sacrificing your sanity? The A.L.I.V.E system helps you scale faster—with less stress, more freedom, and clients who actually follow up with *you*.</p>
+</header>
+
+<section>
+  <h2>What if...</h2>
+  <p>What if the next time a lead messaged you… you didn’t have to drop everything to reply instantly?</p>
+  <p>What if your name was the one they remembered first—Not because you worked harder, but because you worked smarter?</p>
+  <p>After burning time, energy, and thousands chasing Facebook leads and online inquiries, we realized something:</p>
+  <p>It wasn’t that leads weren’t good. It’s that we followed up too slow. Too inconsistently. Too manually.</p>
+  <p>The fortune is in the follow-up—but no one teaches you how to follow up when you’re already maxed out.</p>
+  <p>That’s where the A.L.I.V.E System changes everything.</p>
+  <p>We built it so we could stay in the game—without being glued to our phones.</p>
+  <p>Now it responds in seconds, books appointments, and qualifies leads—before we ever hop on a call.</p>
+  <p>You don’t need to be a tech wizard. Or have a VA. Or 15 tabs open to keep up.</p>
+  <h3>"But Does It Work?"</h3>
+  <p>Let’s walk through a few days with A.L.I.V.E:</p>
+  <ul>
+    <li>✅ That warm buyer lead from Instagram? Already booked into your calendar.</li>
+    <li>✅ Facebook lead from 3 days ago? Re-engaged and asking smart questions.</li>
+    <li>✅ Old seller lead from 2 months back? Replied again (because the bot never gave up).</li>
+  </ul>
+  <p>This isn’t a “hack.” It’s a client-converting machine that works while you sleep.</p>
+</section>
+
+<section class="painpoints section-dark">
+  <h2>The Silent Killer Costing Realtors Millions</h2>
+  <ul>
+    <li>Slow replies = lost deals (83% of clients go with the first responder).</li>
+    <li>Manual follow-ups vanish in inbox clutter.</li>
+    <li>Time kills commissions—every delay costs you serious money.</li>
+  </ul>
+</section>
+
+<section class="benefits">
+  <h2>What You'll Experience With A.L.I.V.E</h2>
+  <ul>
+    <li>Turn “just browsing” into “offer sent” without lifting a finger.</li>
+    <li>Double your conversion rate with automated, intelligent follow-ups.</li>
+    <li>Get 14+ hours of your week back—without sacrificing a single lead.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Here’s What You’re Getting</h2>
+  <table class="value-table">
+    <tr><th>What's Included</th><th>Value</th></tr>
+    <tr><td>AI Follow-Up Engine</td><td>$1,250</td></tr>
+    <tr><td>Smart Scheduling Calendar</td><td>$800</td></tr>
+    <tr><td>Call Strategizer Toolkit</td><td>$400</td></tr>
+    <tr><td>Live Setup + Support</td><td>$600</td></tr>
+    <tr><th>Total Value</th><th><s>$3,050</s> → <span style="color: var(--primary); font-size: 1.2em;">$2,500</span></th></tr>
+  </table>
+</section>
+
+<section>
+  <h2>Why We Built This</h2>
+  <p>It started with a personal pain: lost leads. We spent hours chasing convos, sending the same messages, and still… nothing.</p>
+  <p>We didn’t need more leads. We needed a better way to convert the ones we had.</p>
+  <p>So we built A.L.I.V.E. Then shared it with a few friends. They got more calls, more replies, more deals closed.</p>
+  <p>Now we’re offering it to you.</p>
+</section>
+
+<section class="cta">
+  <h2>Only 23 Spots Left</h2>
+  <p>We’re capping access to ensure white-glove onboarding. Jump in now—because your competitor might get there first.</p>
+  <button>🔥 YES! I Want 2x Conversions On Autopilot</button>
+  <p class="note">P.S. 83% of leads choose the first agent who responds. With A.L.I.V.E, that’s always you.</p>
+</section>
+
+<footer>
+  <p>© 2025 A.L.I.V.E for Realtors | All rights reserved.</p>
+</footer>
+
+</body>
+</html>
